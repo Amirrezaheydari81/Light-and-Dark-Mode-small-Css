@@ -1,0 +1,51 @@
+@font-face {
+    font-family: danapro;
+    src: url("https://waregint.sirv.com/iseokar.ir/fonts/Dana-Regular.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal
+}
+
+html {
+    font-family: danapro !important;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5em;
+    align-items: center;
+}
+
+#list {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    max-width: fit-content;
+    border: solid 1px #898989;
+    background: #d4d4d4;
+    border-radius: 20px;
+    /* padding: 2px 4px; */
+}
+
+#list button {
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    background: transparent;
+    border: none;
+    color-scheme: CanvasText;
+}
+
+#list button:hover {
+    cursor: pointer;
+}
+
+#list button.active {
+    transition: ease-in 0.35s background;
+    background: #EE3038;
+    color-scheme: CanvasText;
+}
